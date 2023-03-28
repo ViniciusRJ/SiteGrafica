@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/origami.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Origami</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+  <header>
+    <div id="topo">
+      <img src="imagens/pca.jpg" alt="banner">
+    </div>
+
+    <div id="cabeça">
+      <div id="logo">
+        <img src="imagens/logo.png" alt="logo">
+      </div>
+
+      <div id="busca">
+        <input type="text" id="txtBusca" aria-label="Busque por um produto..." placeholder="Busque por um produto..."
+          autocomplete="off" value="">
+        <button type="submit" aria-label="Ir página de busca" data-optimum="input-search-button" class="button"
+          kind="primary" role="button">Buscar</button>
+      </div>
+
+      <nav>
+        <span>Ajuda</span>
+        <span>Conta</span>
+        <a href="#"><i data-feather="shopping-cart"></i></a>
+      </nav>
+
+    </div>
+    <hr>
+
+    <div id="produtos">
+      <span id="todos">Todos os produtos ⏬</span>
+      <span>Panfletos</span>
+      <span>Banner</span>
+      <span>Cartões de visita</span>
+      <span>Canecas</span>
+      <span>Blusas</span>
+      <span>Pôster</span>
+      <span>Adesivos</span>
+      <span>Embalagens</span>
+      <span>Novidades</span>
+    
+    </div>
+  </header>
+
+  <div id="banner">
+    <img src="imagens/banner1.jpg" alt="">
+  </div>
+
+  <div id="promo">
+    <img src="imagens/PROMO.jpg" alt="promo">
+  </div>
+
+  <div id="itens">
+    <div class="promos">
+      <img src="imagens/promo1.jpg" alt="promo1">
+      <p class="fly">Canecas</p>
+    </div>
+    <div class="promos">
+      <img src="imagens/promo2.jpg" alt="promo2">
+      <p class="fly">Panfletos</p>
+    </div>
+    <div class="promos">
+      <img src="imagens/promo3.jpg" alt="promo3">
+      <p class="fly">Banner</p>
+    </div>
+    <div class="promos">
+      <img src="imagens/promo4.jpg" alt="promo4">
+      <p class="fly">Cartões</p>
+    </div>
+    <div class="promos">
+      <img src="imagens/promo5.jpg" alt="promo5">
+      <p class="fly">Camisas</p>
+    </div>
+    <div class="promos">
+      <img src="imagens/promo6.jpg" alt="promo6">
+      <p class="fly">Agendas</p>
+    </div>
+  </div>
+
+  <h1 class="titulo">Produtos mais vendidos</h1>
+
+  <div id="vendidos">
+    <div class="vendas">
+      <img src="imagens/vendas1.jpg" alt="vendas">
+      <p class="desc">Panfletos</p>
+      <p class="partir">a partir</p>
+      <p class="desc">R$ 15,00</p>
+    </div>
+    <div class="vendas">
+      <img src="imagens/vendas2.jpg" alt="vendas">
+      <p class="desc">Banner</p>
+      <p class="partir">a partir</p>
+      <p class="desc">R$ 30,00</p>
+    </div>
+    <div class="vendas">
+      <img src="imagens/vendas3.jpg" alt="vendas">
+      <p class="desc">Adesivos</p>
+      <p class="partir">a partir</p>
+      <p class="desc">R$ 3,00</p>
+    </div>
+    <div class="vendas">
+      <img src="imagens/vendas4.jpg" alt="vendas">
+      <p class="desc">Placas</p>
+      <p class="partir">a partir</p>
+      <p class="desc">R$ 17,00</p>
+    </div>
+    <div class="vendas">
+      <img src="imagens/vendas5.jpg" alt="vendas">
+      <p class="desc">Cartões</p>
+      <p class="partir">a partir</p>
+      <p class="desc">R$ 10,00</p>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="sobre-nos">
+        <h2>A Origami</h2>
+        <p>Estamos dispostos a te ajudar com qualquer necessidade
+          de produtos gráficos, oferecendo orçamentos gratuitos
+          e serviços para criação de artes visuais.
+        </p>
+      </div>
+      <div class="contato">
+        <h2>Contato</h2>
+        <p>origami@gmail.com</p>
+        <p>(21) 98191-2078</p>
+      </div>
+      <div class="fale-conosco">
+          <h1>Fale Conosco</h1>
+        <div class="flex-row">
+        </div>
+      </div> 
+      <div class="redes-sociais">
+        <h2>Redes Sociais</h2>
+        <!--Onde está o "#" vai o link da rede social-->
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+      </div>
+    </div>
+
+
+  <script src="function.js"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
